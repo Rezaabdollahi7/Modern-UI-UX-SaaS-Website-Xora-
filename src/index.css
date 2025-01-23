@@ -162,6 +162,10 @@
     @apply text-p3;
   }
 
+  .nav-link {
+    @apply base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5;
+  }
+
   .nav-li {
     @apply relative flex flex-1 items-center justify-between max-lg:flex-col max-lg:items-start;
   }
